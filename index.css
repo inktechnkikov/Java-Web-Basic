@@ -1,0 +1,32 @@
+p{
+	color:green;
+}
+#button-demo{
+	color:red;
+	margin:10px;
+	
+}
+div{
+	font-family:Arial,sans-serif;
+	font-size:20px;
+}
+#ollist{
+	font-family:Arial,sans-serif;
+}
+form{
+	background-color:gray;
+}
+form div span{
+	display:inline-block;
+	width:90px;
+}
+form div input{
+	width:150px;
+}
+form div select{
+	width:150px;
+}
+#btnAdd{
+	display:inline-block;
+	margin:0 auto;
+}

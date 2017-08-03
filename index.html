@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>simle html test</title>
+		<link rel="stylesheet" href="index.css"/>
 	</head>
 	<body>
 	<div>
@@ -9,17 +10,45 @@
 	<p>java-web-basic</p>
 	</div>
 	<div>
-	<button type = "button">im a button</button>
+	<input type = "button" id="button-demo" value="im a button"/>
 	</div>
+	<div>
 		<ul>
 		<li>Pesho</li>
 		<li>Stamat</li>
 		<li>Manteko</li>
 		</ul>
+		</div>
+		<div>
 		<ol>
 		<li>Pesho</li>
 		<li>Stamat</li>
 		<li>Manteko</li>
 		</ol>
+		</div>
+	
+		<form>
+			<div>
+			<span>Username</span>
+			<input type="text" id="username">
+			</div>
+			<div>
+			<span>Password</span>
+			<input type="password" id="pass"/>
+			</div>
+			<div>
+			<span>Email</span>
+			<input type="mail" id="mailAddr"/>
+			</div>
+			<div>	
+			<span>town:</span>
+			<select id="town">
+			<option value="1">Sofia</option>
+			<option value="2">Plovdiv</option>
+			</select>
+			</div>
+			<input type="submit" value="Add member" id="btnAdd"/>
+		</form>
+		
 	</body>
 </html>
